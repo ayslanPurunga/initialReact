@@ -66,6 +66,40 @@
       "promotionId": 2,
       "comment": "testando...",
       "id": 4
+    },
+    {
+      "userId": 1,
+      "promotionId": 1,
+      "comment": "qts ghz?",
+      "parentId": 1,
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "promotionId": 1,
+      "comment": "144",
+      "parentId": 5,
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "promotionId": 2,
+      "comment": "resposta teste",
+      "parentId": 2,
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "promotionId": 2,
+      "comment": "gold",
+      "parentId": 3,
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "promotionId": 1,
+      "comment": "120 reais",
+      "id": 9
     }
   ],
   "users": [
