@@ -5,6 +5,7 @@
     display: flex;
     padding: 15px;
     align-items: flex-start;
+    position: relative;
 }
 
 .promotion-card__image {
@@ -50,21 +51,16 @@
     white-space: nowrap;
 }
 
-.promotion-card__link {
-    border: 1px solid #3498db;
-    border-radius: 4px;
-    color: #3498db;
-    text-decoration: none;
-    padding: 8px 10px;
-    white-space: nowrap;
+.promotion-card__edit-button {
+    margin-left: 10px;
 }
 
-.promotion-card__edit-button {
-    border: 1px solid #3498db;
-    border-radius: 4px;
-    color: #3498db;
-    text-decoration: none;
-    padding: 8px 10px;
-    margin-left: 10px;
+.promotion-card__delete-button {
+    border: unset;
+    background-color: unset;
+    font-size: 18px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
 }
 
